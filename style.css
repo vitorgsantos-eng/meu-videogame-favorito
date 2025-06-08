@@ -1,0 +1,47 @@
+/* Estilos gerais da página */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* fundo branco */
+font-family: Arial, sans-serif;
+}
+
+/* Estilização do cabeçalho */
+.cabecalho {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* Título principal */
+.cabecalho h1 {
+  font-sizer: 2.5em;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+
+/* Logo do PlayStation */
+.logo-playstation {
+width: auto; /* largura da imagem */
+height: auto; /* altura proporcional */
+
+.descricao {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.descricao h2 {
+  color: #1a1a1a;
+  margin-bottom: 15px;
+  font-size: 1.8em;
+}
+
+.descricao p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #333;
+}
