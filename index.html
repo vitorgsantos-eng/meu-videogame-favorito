@@ -2,6 +2,9 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <title>Meu videogame favorito</title>
     <link rel="stylesheet" href="style.css">
   </head>
@@ -13,6 +16,17 @@
     <section class="descricao">
       <h2>Por quê escolhi o PlayStation?</h2>
       <p> O PlayStation marcou minha infância e adolescência.</p>
+    </section>
+    <section class="contato">
+      <h2>Fale comigo!</h2>
+      <form>
+        <label for="nome">Seu nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="mensagem">Sua mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
     </section>
   </body>
 </html>
